@@ -1,0 +1,26 @@
+# --- Sensitive / runtime data (DO NOT publish: contains customer info) ---
+store.db
+*.db
+backups/
+receipts/
+product_images/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# --- PyInstaller build output ---
+build/
+dist/
+*.spec
+_apply_update.bat
+*_new.exe
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
